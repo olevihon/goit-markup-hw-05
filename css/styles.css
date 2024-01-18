@@ -534,18 +534,20 @@ img {
 
 .footer-subscribe-form {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
+
+/* .footer-subscribe-form-label {} */
 
 .footer-subscribe-form-input {
     width: 264px;
     height: 40px;
 
-    padding-left: 15px;
+    padding-left: 16px;
 
     border-radius: 4px;
-    border: 1px solid #fff;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
     outline: 0px solid transparent;
 
@@ -554,14 +556,16 @@ img {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
 }
 
 .footer-subscribe-form-input::placeholder {
-    color: #fff;
+    color: #ffffff;
 }
 
 .footer-subscribe-form-btn-submit {
+    min-width: 165px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -577,8 +581,8 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     display: flex;
+    justify-content: center;
     align-items: center;
-    column-gap: 16px;
 }
 
 .footer-subscribe-form-btn-submit:hover,
@@ -588,6 +592,7 @@ img {
 
 .footer-subscribe-form-btn-submit-icon {
     fill: #fff;
+    margin-left: 16px;
 }
 
 /* modal backdrop */
